@@ -1,0 +1,8 @@
+.image-preview.new-image {
+    width: 150px;
+    height: 150px;
+}
+
+.image-preview.new-image label {
+    width: 100px;
+}

@@ -1,0 +1,10 @@
+.lable-wrap {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+

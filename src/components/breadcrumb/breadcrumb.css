@@ -1,0 +1,38 @@
+.page-header-left {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.page-header-left h3 {
+    margin-bottom: 0;
+}
+
+.breadcrumb {
+    align-items: center;
+    background-color: transparent !important;
+}
+
+.breadcrumb svg {
+    width: 20px;
+    height: 20px;
+}
+
+.breadcrumb-item.active {
+    font-weight: 600;
+}
+.dark .breadcrumb-wrap,
+.dark .breadcrumb-wrap li  {
+    color: #96a2b4;
+}
+@media (max-width: 999px) {
+    .breadcrumb-wrap {
+        flex-direction: column;
+    }
+
+    .breadcrumb.breadcrumb-list {
+        float: left !important;
+        padding-left: 0;
+    }
+}

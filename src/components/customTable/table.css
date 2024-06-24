@@ -1,0 +1,34 @@
+.pagination-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 10px 10px;
+}
+
+.pagination-section .row-selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.pagination-section .row-selection label {
+    width: 55%;
+    font-size: 15px;
+}
+.pagination-section .row-selection select {
+    width: 45%;
+}
+
+table thead th,
+table table tr td {
+    text-align: center;
+}
+
+@media (max-width: 999px) {
+    .pagination-section {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+}
